@@ -41,9 +41,6 @@ export default function LandingPage() {
               <Link href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Pricing
               </Link>
-              <Link href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Contact
-              </Link>
             </nav>
 
             <div className="flex items-center space-x-4">
@@ -516,7 +513,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
+      <footer id="footer" className="bg-gray-900 text-white py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
@@ -530,13 +527,14 @@ export default function LandingPage() {
                 Streamline your workflow and boost productivity with our powerful automation platform.
               </p>
               <div className="flex space-x-4">
-                <Link href="https://x.com/mohitngi" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="https://x.com/mohitngi" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                   <Twitter className="w-5 h-5" />
                 </Link>
-                <Link href="https://www.linkedin.com/in/mohitngi/" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="https://www.linkedin.com/in/mohitngi/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </Link>
-                <Link href="https://github.com/mohitngi" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="https://github.com/mohitngi" target="_blank"
+                className="text-gray-400 hover:text-white transition-colors">
                   <Github className="w-5 h-5" />
                 </Link>
               </div>
